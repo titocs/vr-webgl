@@ -1,14 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBGL VR Project</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="./public/img/logo-fik.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <title>Hello, world!</title>
 </head>
 <body>
+    <!-- Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <div class="d-flex align-items-center">
+                <img src="./public/img/logo-fik.png" width="50" height="50" alt="">
+                <a class="navbar-brand navbar-main d-block pl-2" href="#" style="font-weight: bold;">FIKTour</a>
+            </div>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-links navbar-nav ml-auto">
+                <a class="nav-item nav-link" href="#tentang">Tentang</a>
+                <a class="nav-item nav-link" href="#playtour">Tour FIK</a>
+                <a class="nav-item nav-link" href="#kontak">Kontak</a>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
 
-    <!-- Game yang di-Embed -->
-    <iframe src="https://i.simmer.io/@titocs/tourcampusfikupnvj" style="width:960px;height:600px"></iframe>
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="carousel-item__image d-block w-100" style="height: 35vw; object-fit: cover;" src="./public/img/fikupnvj.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__image d-block w-100" style="height: 35vw; object-fit: cover;" src="./public/img/upnvj.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="carousel-item__image d-block w-100" style="height: 35vw; object-fit: cover;" src="./public/img/upnvj.jpg" alt="Third slide">
+          </div>
+        </div>
+      </div>
+    <!-- End of Carousel -->
+
+    <main class="main-content">
+        <section id="tentang" style="padding: 2rem; margin-bottom: 1rem;">
+            <h1 class="text-center font-weight-bold" style="font-size: 1.56rem; margin-bottom: 1.3rem;">Apa itu Tour Kampus Fakultas Ilmu Komputer UPNVJ</h1>
+            <p class="text-center desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit magnam eaque dolores optio animi dignissimos, provident nostrum atque esse nesciunt error. Magnam ullam voluptate placeat provident ducimus numquam quo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum tempore laborum minima! </p>
+        </section>
+
+        <section id="playtour">
+            <h1 class="text-center font-weight-bold" style="font-size: 1.56rem; margin-bottom: 1.3rem;">Tour Fakultas Ilmu Komputer</h1>
+            <p class="text-center desc mb-2">Tekan tombol <span style="font-weight: 700;">MULAI</span> untuk memulai jelajah Fakultas Ilmu Komputer UPNVJ</p>
+            <div class="frame-wrapper">
+                <iframe class="tour-content" src="https://i.simmer.io/@titocs/tourcampusfikupnvj" style="width:100%; height:600px"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer id="kontak" class="p-3">
+        <p class="mb-0 text-white text-center">Copyright© 2022 FIKCampusTour</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

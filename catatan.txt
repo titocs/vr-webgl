@@ -1,0 +1,22 @@
+Tugas saya:
+- Build unity ke webgl sama ngatur-ngaturnya kaya atur splash screen, terus atur publish settingnya juga biar bisa di-embed di website
+
+Pengaturannya ada di Player Setting
+Terus masuk ke Publish Setting, atur Compression Formatnya ke Disabled biar nanti outputnya cuma html. Kalo GZip, ntar filenya terlalu besar
+
+Uploadnya pake simmer.io
+
+simmer.io/@titocs/tourcampusupnvj
+
+<iframe src="https://i.simmer.io/@titocs/tourcampusupnvj" style="width:960px;height:600px"></iframe>
+
+--- STEP ---
+- Buka UNITY
+- Klik bagian File > Build Setting > pilih WebGL
+- Masuk ke Player Setting > Nonaktifkan Splash Screennya biar pas diembed di web langsung tampil ke main menu
+- Terus yang Compressednya juga di-disabled biar bisa diupload ke Simmer.io karena requirementnya seperti itu
+- Nah disini, saya mengatur posisi scene main menu ke bagian atas init, karena ketika di bawah engga bisa ditekan menunya
+- Setelah selesai, lalu dibuild dan menghasilkan beberapa folder dan file index.html
+- file ini engga langsung dihosting karena harus dimasukkan terlebih dahulu ke dalam index html
+- selanjutnya, saya upload folder yg telah dibuild tersebut ke dalam simmer.io, setelah itu akan ada copy code berupa tag iframe yang berisi game kita tadi yg telah dibuild.
+-
