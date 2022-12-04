@@ -1,20 +1,35 @@
 /*
 Color Pallete
 
-Kuning: FED049
-Ijo/Biru muda: CFFDE1
-Ijo Netral: 68B984
-Ijo Tua: 3D5656
+Oren FIK : E49625
 
 */
 
+:root {
+    --fik-color: #E49625;
+    --orange-muda: #ff9a00;
+    --orange-mid: #ff7400;
+    --old-orange: #ff4d00;
+    --red-orange: #ff0000;
+}
+
 body {
-    background-color: #CFFDE1;
+    background-color: #ffc977;
     font-family: 'Poppins', sans-serif;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    color: #333328;
+}
+
+.navbar-light .navbar-toggler {
+    color: #333328;
+    border-color: #333328;
+}
+
 .navbar {
-    background-color: #68B984;
+    background-color: #E49625;
+    border-bottom: 2px solid #ff7400;
 }
 
 .navbar-links {
@@ -30,27 +45,23 @@ body {
     font-weight: bold;
 }
 
-.navbar-main {
-
-    background-image: url('../public/img/logo-fik.png');
-}
-
 .carousel-item__image {
     height: 35vw;
     object-fit: cover;
-
 }
 
 main {
-    background-color: #CFFDE1;
+    background-color: #ffc977;
     margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
-h1, p, a {
-    color: #3D5656;
+h1, a {
+    color: #333328;
 }
 
+p {
+    color: #333328;
+}
 
 .frame-wrapper {
     position: relative;
@@ -70,9 +81,13 @@ h1, p, a {
 }
 
 footer {
-    background-color: #3D5656;
+    background-color: #E49625;
+    color: #333328;
 }
 
+ul > li {
+    list-style: none;
+}
 
 @media only screen and (min-width: 992px) {
     .desc {
