@@ -62,6 +62,11 @@
         <section id="tentang" style="padding: 2rem; margin-bottom: 1rem;">
             <h1 class="text-center font-weight-bold" style="font-size: 1.56rem; margin-bottom: 1.3rem;">Apa itu Tour Kampus Fakultas Ilmu Komputer UPNVJ</h1>
             <p class="text-center desc">Tour Kampus Fakultas Ilmu Komputer UPNVJ merupakan aktivitas berkeliling yang memudahkan kita untuk mengetahui denah, ruangan, maupun fasilitas apa saja yang tersedia di Fakultas Ilmu Komputer UPNVJ secara virtual</p>
+            <div class="d-flex justify-content-center align-items-center my-3" style="gap: 20px; ">
+                <svg style="fill: #333328;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-headset-vr" viewBox="0 0 16 16"><path d="M8 1.248c1.857 0 3.526.641 4.65 1.794a4.978 4.978 0 0 1 2.518 1.09C13.907 1.482 11.295 0 8 0 4.75 0 2.12 1.48.844 4.122a4.979 4.979 0 0 1 2.289-1.047C4.236 1.872 5.974 1.248 8 1.248z"/><path d="M12 12a3.988 3.988 0 0 1-2.786-1.13l-.002-.002a1.612 1.612 0 0 0-.276-.167A2.164 2.164 0 0 0 8 10.5c-.414 0-.729.103-.935.201a1.612 1.612 0 0 0-.277.167l-.002.002A4 4 0 1 1 4 4h8a4 4 0 0 1 0 8z"/></svg>
+                <svg style="fill: #333328;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-badge-vr-fill" viewBox="0 0 16 16"><path d="M9.673 5.933v1.938h1.033c.66 0 1.068-.316 1.068-.95 0-.64-.422-.988-1.05-.988h-1.05z"/><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm5.937 7 1.99-5.999H6.61L5.277 9.708H5.22L3.875 5.001H2.5L4.508 11h1.429zM8.5 5.001V11h1.173V8.763h1.064L11.787 11h1.327L11.91 8.583C12.455 8.373 13 7.779 13 6.9c0-1.147-.773-1.9-2.105-1.9H8.5z"/></svg>
+                <svg style="fill: #333328;" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M576 64H64C28.7 64 0 92.7 0 128V384c0 35.3 28.7 64 64 64H184.4c24.2 0 46.4-13.7 57.2-35.4l32-64c8.8-17.5 26.7-28.6 46.3-28.6s37.5 11.1 46.3 28.6l32 64c10.8 21.7 33 35.4 57.2 35.4H576c35.3 0 64-28.7 64-64V128c0-35.3-28.7-64-64-64zM224 240c0 35.3-28.7 64-64 64s-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64zm256 64c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/></svg>
+            </div>
         </section>
 
         <section id="playtour">
@@ -70,21 +75,23 @@
             <p class="mb-2 text-center" style="font-size: 12px; font-style: italic;"><span class="text-danger">*</span> use desktop for better experience</p> 
             <button class="d-block full-screen-button m-auto" onclick="openFullscreen();">Full Screen</button>
             <div class="frame-wrapper">
-                <iframe class="tour-content" src="https://i.simmer.io/@titocs/tourcampusfikupnvj" style="width:100%; height:600px"></iframe>
+                <!-- <iframe class="tour-content" src="https://i.simmer.io/@titocs/tourcampusfikupnvj" style="width:100%; height:600px"></iframe> -->
             </div>
         </section>
     </main>
 
     <footer id="kontak" class="p-3">
-        <p class="font-weight-bold text-center">Our Team</p>
-        <ul class="justify-content-center text-center">
-            <li>Wiaji Robian Dwi Cahya (Unity Developer)</li>
-            <li>Gilbert Hasiholan (Unity Developer)</li>
-            <li>Tito Candra Septio (Web Developer)</li>
-            <li>Ardella Malinda Sarastri (Designer)</li>
-            <li>Sarah Yuniza Dewi Anggadinata (Designer)</li>
-        </ul>
-        <p class="mb-0 font-weight-bold text-center">Copyright© 2022 FIKCampusTour</p>
+        <section>
+            <p class="font-weight-bold text-center">Our Team</p>
+            <ul class="justify-content-center text-center">
+                <li>Wiaji Robian Dwi Cahya (Unity Developer)</li>
+                <li>Gilbert Hasiholan (Unity Developer)</li>
+                <li>Tito Candra Septio (Web Developer)</li>
+                <li>Ardella Malinda Sarastri (Designer)</li>
+                <li>Sarah Yuniza Dewi Anggadinata (Designer)</li>
+            </ul>
+        </section>
+        <p class="mb-0 font-weight-bold text-center" style="font-size: 12px;">Copyright© 2022 FIKCampusTour</p>
     </footer>
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
